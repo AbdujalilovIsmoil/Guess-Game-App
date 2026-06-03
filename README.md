@@ -1,50 +1,46 @@
-# Welcome to your Expo app 👋
+# 🎯 Guess Game App (Mobile)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A fun and interactive **Guess Number Game** built with **React Native (Expo)**.  
+The app challenges users to guess a randomly generated number with smart hints and smooth UI experience.
 
-## Get started
+---
 
-1. Install dependencies
+## 📱 Screenshots
 
-   ```bash
-   npm install
-   ```
+### 🏠 Home Screen
+![Home Screen](https://www.image2url.com/r2/default/files/1780530540973-cb655a47-d37b-4f9c-b9ba-2cb0b499699c.png)
 
-2. Start the app
+### 🎮 Game Screen
+![Game Screen](https://www.image2url.com/r2/default/files/1780530571323-2d5a7274-aa0c-496a-a051-eb6bce5fdfdb.png)
 
-   ```bash
-   npx expo start
-   ```
+### 🏆 Game Over Screen
+![Game Over Screen](https://www.image2url.com/r2/default/files/1780530605349-b432e806-9719-4efd-b221-6016535e257e.png)
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🚀 Features
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- 🎯 Random number guessing logic  
+- 🔁 Higher / Lower hint system  
+- 📱 Responsive mobile UI  
+- 🎨 Gradient background design  
+- 🖼️ ImageBackground usage  
+- ⚡ Smooth transitions and UX  
+- 🔄 Restart game option  
+- 🧠 Simple addictive gameplay  
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 🛠️ Technologies Used
 
-```bash
-npm run reset-project
-```
+- ⚛️ React Native  
+- 🚀 Expo  
+- 🎨 expo-linear-gradient  
+- 🖼️ ImageBackground  
+- 🎯 @expo/vector-icons  
+- 🧩 Custom Components  
+- 📦 React Hooks (useState, useEffect)  
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 📂 Project Structure
