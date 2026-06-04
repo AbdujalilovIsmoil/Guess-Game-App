@@ -2,7 +2,6 @@ import PrimaryButton from "@/components/ui/PrimaryButton";
 import Title from "@/components/ui/Title";
 import Colors from "@/constants/colors";
 import {
-  Dimensions,
   Image,
   ScrollView,
   StyleSheet,
@@ -16,8 +15,6 @@ interface GameOverProps {
   roundsNumber: number;
   onStartNewGame: () => void;
 }
-
-const deviceWidth = Dimensions.get("window").width;
 
 const GameOverScreen = ({
   userNumber,
@@ -81,9 +78,6 @@ const styles = StyleSheet.create({
     borderWidth: 3,
     overflow: "hidden",
     borderColor: Colors.primary800,
-    // width: deviceWidth < 380 ? 150 : 300,
-    // height: deviceWidth < 380 ? 150 : 300,
-    // borderRadius: deviceWidth < 380 ? 75 : 150,
   },
   image: {
     width: "100%",

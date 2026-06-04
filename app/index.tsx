@@ -5,7 +5,7 @@ import StartGameScreen from "@/screens/StartGameScreen";
 import { useFonts } from "expo-font";
 import { LinearGradient } from "expo-linear-gradient";
 import { useState } from "react";
-import { ImageBackground, StyleSheet } from "react-native";
+import { ImageBackground, StatusBar, StyleSheet } from "react-native";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 
 const RootLayout = () => {
@@ -59,7 +59,8 @@ const RootLayout = () => {
   }
 
   return (
-    <SafeAreaProvider>
+    <>
+      <StatusBar barStyle={"dark-content"}/>
       <LinearGradient
         style={styles.rootScreen}
         colors={[Colors.parimary700, Colors.accent500]}
@@ -70,10 +71,12 @@ const RootLayout = () => {
           imageStyle={styles.backgroundImage}
           source={require("@/assets/images/background.png")}
         >
-          <SafeAreaView style={styles.rootScreen}>{screen}</SafeAreaView>
+          <SafeAreaProvider>
+            <SafeAreaView style={styles.rootScreen}>{screen}</SafeAreaView>
+          </SafeAreaProvider>
         </ImageBackground>
       </LinearGradient>
-    </SafeAreaProvider>
+    </>
   );
 };
 
